@@ -1,36 +1,66 @@
 h1 {
-    color: #990066;
-    text-align: center;
-    font-size: 36px;
-    line-height: 40px;
-    font-family: 'Muli', sans-serif;
+  color: #990066;
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Muli", sans-serif;
 }
 
 h2 {
-    color: #ff0099;
-    text-align: left;
-    font-size: 36px;
-    line-height: 40px;
-    font-family: 'Muli', sans-serif;
+  color: #ff0099;
+  text-align: left;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Muli", sans-serif;
 }
 
 h3 {
-    color: #ff33cc;
-    text-align: left;
-    font-size: 36px;
-    line-height: 40px;
-    font-family: 'Muli', sans-serif;
+  color: #ff33cc;
+  text-align: left;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Muli", sans-serif;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 15px;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
 }
 
 body {
-    font-family: Charcoal, sans-serif;
-    font-size: 34px;
-    line-height: 40px;
+  font-family: Charcoal, sans-serif;
+  font-size: 34px;
+  line-height: 40px;
 }
 
+/* Extra css for form page
+
+*/
+
+.container {
+  text-align: center;
+  background-color: #990066;
+}
+.jumbotron {
+  background-color: aqua;
+}
+.form-body h2 {
+  text-align: center;
+}
+.btn {
+  padding: 1rem 2rem;
+  background: rgb(12, 190, 21);
+  font-size: medium;
+}
+.footer {
+  background-color: #990066;
+}
+
+#month {
+  border-radius: 6px;
+  padding: 12px;
+  font-size: medium;
+}
